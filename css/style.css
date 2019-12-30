@@ -391,19 +391,13 @@ img.thumbnail {
 }
 .content code,
 .content pre {
+  font-size: 0.85em;
   font-family: "Source Code Pro", monospace, "Microsoft YaHei";
 }
-.content pre {
-  font-size: 0.85em;
-}
 .content code {
-  padding: 0;
-  background: transparent;
-}
-.content > code,
-.content :not(pre) > code {
-  font-size: 0.85em;
   color: #ff3860;
+  background: transparent;
+  padding: 0;
 }
 .content blockquote footer strong + cite {
   margin-left: 0.5em;
@@ -441,8 +435,7 @@ figure.highlight pre {
   padding: 0;
   overflow: visible;
 }
-figure.highlight pre .line,
-figure.highlight pre code .hljs {
+figure.highlight pre .line {
   line-height: 1.5rem;
 }
 figure.highlight figcaption,
